@@ -1,0 +1,95 @@
+[
+    {
+        "name": "plain_ownership_unsigned",
+        "kind": "plain",
+        "ticket": "TgAAAAMAAAA5MAAAAQAQAdoCAAAHcQDLBQAACgQAAACAWrtkAHUrfQMACgAAABQAAAAeAAAAAgDbAgAAAgAoAAAAMgAAANwCAAAAAAAA",
+        "key": null
+    },
+    {
+        "name": "plain_ownership_signed",
+        "kind": "plain",
+        "ticket": "TgAAAAMAAAA5MAAAAQAQAdoCAAAHcQDLBQAACgQAAACAWrtkAHUrfQMACgAAABQAAAAeAAAAAgDbAgAAAgAoAAAAMgAAANwCAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo=",
+        "key": null
+    },
+    {
+        "name": "plain_full_unsigned",
+        "kind": "plain",
+        "ticket": "FAAAABWB6X30ECIRAAAAAAAAAADwyVNlGAAAAAAAAAAAAAAACWQzxgAAAAAGEg8ABwAAAE4AAABOAAAAAwAAADkwAAABABAB2gIAAAdxAMsFAAAKBAAAAIBau2QAdSt9AwAKAAAAFAAAAB4AAAACANsCAAACACgAAAAyAAAA3AIAAAAAAAA=",
+        "key": null
+    },
+    {
+        "name": "plain_full_signed",
+        "kind": "plain",
+        "ticket": "FAAAAAAAhOJQbOZ8AAAAAAAAAADzyVNlGAAAAAAAAAAAAAAACmQzxgAAAAB7AAAACQAAAM4AAABOAAAAAwAAADkwAAABABAB2gIAAAdxAMsFAAAKBAAAAIBau2QAdSt9AwAKAAAAFAAAAB4AAAACANsCAAACACgAAAAyAAAA3AIAAAAAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqg==",
+        "key": null
+    },
+    {
+        "name": "plain_expired_signed",
+        "kind": "plain",
+        "ticket": "LgAAAAMAAAA5MAAAAQAQAdoCAAAHcQDLBQAACgAAAAAAL2hZABBeXwAAAAAAALu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7",
+        "key": null
+    },
+    {
+        "name": "encrypted_v1_no_hash",
+        "kind": "encrypted",
+        "ticket": "CAEQu+nengwYCSBOKnDeWHtfzPBOtHIk5po6gLccPakTouUaBL4aq5SHL4Q1zcUL/rnE5QfLW/3aibRRDFWvwMwFuQMu+kWdN4HNz0zAHoOFnNzbntNrzlLlzKzFN9fPkotkTRkSNft6BQ88gXJdPirCukJbCQIOFQDbSz12",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_v1_hash_and_unknown1",
+        "kind": "encrypted",
+        "ticket": "CAEQw9e04Q4YBSBOKpAB3lh7X8zwTrRyJOaaOoC3HLUGVyDBHaC0dIaYXwziohVRg8tKEqqM9HGxp7dCUpTN3jjfrL6sL1ZxAcJCtKrE8SPmkzMLlzQGud0jstzsSEDjj2YL6q105h9gA/m3uWPp/DigZseh/vWx7EuYHUOaS+TItZ8i8+OYJKdgS4I4XFIJJtD8CovzARln8OE9Rxkb",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_v2_hash",
+        "kind": "encrypted",
+        "ticket": "CAIQocjZ/w4YBSBOKqAB3lh7X8zwTrRyJOaaOoC3HLUGVyDBHaC0dIaYXwziohVRg8tKEqqM9HGxp7dCUpTN3jjfrL6sL1ZxAcJCtKrE8SPmkzMLlzQGud0jstzsSEDjj2YL6q105h9gA/m3uWPpBhOyr77yuK2YJkZSLu0na7foqQPmsMyVva5j9sBR+faHOgk6BdZPwoZ6qKi/G8Gvr9Poymigry77sQTeAXy9iA==",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_v2_no_hash",
+        "kind": "encrypted",
+        "ticket": "CAIQrYbIywIYBSBOKoAB3lh7X8zwTrRyJOaaOoC3HLUGVyDBHaC0dIaYXwziohVRg8tKEqqM9HGxp7dCUpTN3jjfrL6sL1ZxAcJCtKrE8SPmkzMLlzQGud0jstzsSEDjj2YL6q105h9gA/m3uWPp9Ml4RAfVXjQ6E/7Jn9S+R1ekWgPu42NUMxTgGN06InY=",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_v2_high_uint64_trailer",
+        "kind": "encrypted",
+        "ticket": "CAIQ+8LA0Q4YDCBOKqAB3lh7X8zwTrRyJOaaOoC3HH/eVEgLsYQ8KV1IBD1/5omEisTmgcNlNusIDJNBVbcZMyEqszTf10pSeCWBwNG/AY1vt2E0MqFgGyFHqoeQp2S+eynLZb7leWgUxYtHnOk1+4ZM4ScftJhK3MGHTN4uO9HqVSEGdrjXI818RZ79Wc8xf6E6rBjiaVItmFkXuSNqnW6TxXlZEV2BZFbjsLtr1g==",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_empty_user_data",
+        "kind": "encrypted",
+        "ticket": "CAEQovSU+wQYACBOKoAB3lh7X8zwTrRyJOaaOoC3HFIEcdONff4YqEbwpQB2KXCxLJ4PWg4YQMds6gGL1IJgt8MV/KS+qINKac6t/clqGEeEYJ4Bf3H8NIK5ZfjxN7+mn3mIaCh/6vL5ockDuHG1W0VtwPSwTg7t+MH2S5zHT3PBP5PxXkduERuSk/xUprE=",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_unknown_protobuf_fields",
+        "kind": "encrypted",
+        "ticket": "MAE5AgAAAAAAAAAIARCS/PLWBhgIIE4qcN5Ye1/M8E60ciTmmjqAtxw2cfcp4WFMQqrtXWGAzyrYbRcCNUAlLf4SHax5LUIOEsnTRDGx6kH6sj0rs4b6MKXsytDR0g9C0SzGupPd8ze3/EXr0tVzgQrnRmEhmgJvVeKTAGfSPKO3tv007wu7n3BCB3Vua25vd24=",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    },
+    {
+        "name": "encrypted_hash_remainder_exactly_28",
+        "kind": "encrypted",
+        "ticket": "CAEQ8InFxgMYByBOKpAB3lh7X8zwTrRyJOaaOoC3HIcjT8znxoCPrD9hOhAi2W57KPr5S0plmHSGmwcxScGfDqqicRsFiw8dqtDPbzzQyhm1vFYCCTNe3IAMdxojqo7zjiTQcnsECTplq9mQuuwwFfu4ztK82+5qGQkJHCWUUfXuQf9SkqLsGZpbNr59TSG+uHWHXLcKCWSMyMMR4PPO",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": true
+    },
+    {
+        "name": "encrypted_signed_ownership",
+        "kind": "encrypted",
+        "ticket": "CAEQu+S97ggYECDOASqQAt5Ye1/M8E60ciTmmjqAtxzRNvTk7okaCq6Rs9xW8qlfAWpP/oV8lX7AZFW1zBp9iipUwST23gHhxUSSw4JQgIlLhEigcK78ZZ34L6jxIHiBw8RDl6CxZX2XW3rjEMCgRFrRxQme/JVFo2cV5cargQjYnmpAfs1OOHoIldQMstTGbD7PhqUG69M8rc7ydO9IN0dRrEEOQqKzElej3jByLzdsxBctIgWyOSGAplYnwuGCttT/U0Ny30p1f2HrsZijNGkSl7hHyWoIIpU+JzJOYsmvzfhkARPoynsP18CRfUlcy9EdYUsj3piPpDgARhycZ8sBK5EQKmreWEPzykD79tfmRPoDx39BKEZLE70ZA4mm",
+        "key": "3031323334353637383961626364656630313233343536373839616263646566",
+        "expectNodeNull": false
+    }
+]

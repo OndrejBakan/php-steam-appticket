@@ -1,0 +1,437 @@
+[
+  {
+    "name": "plain_ownership_unsigned",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "ownershipTicketExpires": 2100000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "signature": null,
+      "isExpired": false,
+      "hasValidSignature": false,
+      "isValid": true,
+      "authTicket": null,
+      "gcToken": null,
+      "tokenGenerated": null,
+      "sessionExternalIP": null,
+      "clientConnectionTime": null,
+      "clientConnectionCount": null
+    }
+  },
+  {
+    "name": "plain_ownership_signed",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "ownershipTicketExpires": 2100000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "signature": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo=",
+      "isExpired": false,
+      "hasValidSignature": false,
+      "isValid": false,
+      "authTicket": null,
+      "gcToken": null,
+      "tokenGenerated": null,
+      "sessionExternalIP": null,
+      "clientConnectionTime": null,
+      "clientConnectionCount": null
+    }
+  },
+  {
+    "name": "plain_full_unsigned",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "ownershipTicketExpires": 2100000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "signature": null,
+      "isExpired": false,
+      "hasValidSignature": false,
+      "isValid": true,
+      "authTicket": "FAAAABWB6X30ECIRAAAAAAAAAADwyVNlGAAAAAAAAAAAAAAACWQzxgAAAAAGEg8ABwAAAA==",
+      "gcToken": "1234567890123456789",
+      "tokenGenerated": 1699990000,
+      "sessionExternalIP": "198.51.100.9",
+      "clientConnectionTime": 987654,
+      "clientConnectionCount": 7
+    }
+  },
+  {
+    "name": "plain_full_signed",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "ownershipTicketExpires": 2100000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "signature": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo=",
+      "isExpired": false,
+      "hasValidSignature": false,
+      "isValid": false,
+      "authTicket": "FAAAAAAAhOJQbOZ8AAAAAAAAAADzyVNlGAAAAAAAAAAAAAAACmQzxgAAAAB7AAAACQAAAA==",
+      "gcToken": "9000000000000000000",
+      "tokenGenerated": 1699990003,
+      "sessionExternalIP": "198.51.100.10",
+      "clientConnectionTime": 123,
+      "clientConnectionCount": 9
+    }
+  },
+  {
+    "name": "plain_expired_signed",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 0,
+      "ownershipTicketGenerated": 1500000000,
+      "ownershipTicketExpires": 1600000000,
+      "licenses": [],
+      "dlc": [],
+      "signature": "u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7s=",
+      "isExpired": true,
+      "hasValidSignature": false,
+      "isValid": false,
+      "authTicket": null,
+      "gcToken": null,
+      "tokenGenerated": null,
+      "sessionExternalIP": null,
+      "clientConnectionTime": null,
+      "clientConnectionCount": null
+    }
+  },
+  {
+    "name": "encrypted_v1_no_hash",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "bm9uY2UtMTIz",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_v1_hash_and_unknown1",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "bm9uY2U=",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_v2_hash",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "bm9uY2U=",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_v2_no_hash",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "bm9uY2U=",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_v2_high_uint64_trailer",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "aGlnaC10cmFpbGVy",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_empty_user_data",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_unknown_protobuf_fields",
+    "node": {
+      "version": 3,
+      "steamID": "76561197960278073",
+      "appID": 730,
+      "ownershipTicketExternalIP": "203.0.113.7",
+      "ownershipTicketInternalIP": "10.0.0.5",
+      "ownershipFlags": 4,
+      "ownershipTicketGenerated": 1690000000,
+      "licenses": [
+        10,
+        20,
+        30
+      ],
+      "dlc": [
+        {
+          "appID": 731,
+          "licenses": [
+            40,
+            50
+          ]
+        },
+        {
+          "appID": 732,
+          "licenses": []
+        }
+      ],
+      "userData": "dW5rbm93bnM=",
+      "unknown2": null,
+      "unknown3": null,
+      "unknown4": null
+    }
+  },
+  {
+    "name": "encrypted_hash_remainder_exactly_28",
+    "node": null
+  },
+  {
+    "name": "encrypted_signed_ownership",
+    "node": null
+  }
+]
